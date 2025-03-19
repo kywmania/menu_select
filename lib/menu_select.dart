@@ -1,7 +1,6 @@
 import 'dart:io';
 
 String menu(List<String> menu) {
-  print('메뉴 목록: ${menu.join(",")}');
   stdout.write('원하는 메뉴를 선택하세요: ');
 
   while (true) {
